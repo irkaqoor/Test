@@ -9,7 +9,7 @@ public class algoritm {
 	}
 
 	public static int search(int[] array){
-		int maxCount = 0; int countTemp = 0;
+		int maxCount = 0, countTemp = 0;
 		for(int i = 0; i < array.length; i++) {
 			if (array[i] == 1){
 				countTemp++;
